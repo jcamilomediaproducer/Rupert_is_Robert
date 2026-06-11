@@ -668,6 +668,5 @@ img {
 }
 @media (max-width: 600px) {
   .hero__scroll {
-    display: none !important;
-  }
+    display: none 
 }
