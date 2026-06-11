@@ -249,7 +249,7 @@ img {
   gap: 1rem;
   justify-content: center;
   margin-top: 2.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 0;
   flex-wrap: wrap;
   opacity: 0;
   transform: translateY(12px);
@@ -305,8 +305,8 @@ img {
   opacity: 0.6;
   transition: opacity 0.2s;
   animation: scrollBounce 2.2s 2s infinite;
+  margin-top: 0;
 }
-
 .hero__scroll:hover { opacity: 1; }
 
 .scroll-dot {
